@@ -5,6 +5,6 @@
 #	}
 #}
 
-node 'cookbook' {
+node 'cookbook', 'cookbook2' {
 	include puppet
 }
