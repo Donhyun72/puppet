@@ -26,7 +26,7 @@ class puppet {
 		ensure	=> present,
 		user	=> 'root',
 		command	=> '/usr/local/bin/pull-updates',
-		minute	=> '*',
+		minute	=> '*/10',
 		hour	=> '*',	
 	}
 }
