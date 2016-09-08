@@ -7,4 +7,9 @@
 
 node 'cookbook', 'cookbook2' {
 	include puppet
+
+	file { '/tmp/hello2':
+		content	=> "Hello, world\n",
+	}
+
 }
